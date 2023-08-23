@@ -1,0 +1,21 @@
+{
+  "results": {
+    "custom-1.0-0.0": {
+      "rouge2": 4.634586975600162
+    }
+  },
+  "versions": {
+    "custom-1.0-0.0": 1.0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=rinna/japanese-gpt-neox-3.6b,peft=downloaded_model,use_fast=False,device_map_option=auto,dtype=auto,batch_size=4",
+    "num_fewshot": 0,
+    "batch_size": null,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

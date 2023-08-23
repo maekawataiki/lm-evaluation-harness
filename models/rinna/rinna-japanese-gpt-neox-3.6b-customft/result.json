@@ -1,0 +1,21 @@
+{
+  "results": {
+    "custom-1.0-0.0": {
+      "rouge2": 0.0
+    }
+  },
+  "versions": {
+    "custom-1.0-0.0": 1.0
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=downloaded_model,use_fast=False,device_map=auto,torch_dtype=auto,batch_size=4",
+    "num_fewshot": 0,
+    "batch_size": null,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

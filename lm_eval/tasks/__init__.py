@@ -64,6 +64,7 @@ from .ja import xlsum_ja
 from .ja import jaqket_v1
 from .ja import jaqket_v2
 from .ja import mgsm
+from .ja import custom_summary
 
 ########################################
 # Translation tasks
@@ -343,7 +344,9 @@ TASK_REGISTRY = {
     "jaqket_v2": jaqket_v2.JAQKETV2,
     **jaqket_v2.construct_tasks(),
     "mgsm": mgsm.MGSM,
-    **mgsm.construct_tasks()
+    **mgsm.construct_tasks(),
+    "custom": custom_summary.CustomSummary,
+    **custom_summary.construct_tasks()
 }
 
 
